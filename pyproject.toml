@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccs-investment-intelligence"
+version = "1.0.0"
+description = "Transparent CCS project screening, scenario analysis and decision support"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Dr Khaldoun Shaker"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
